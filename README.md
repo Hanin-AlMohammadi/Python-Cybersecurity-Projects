@@ -18,6 +18,12 @@ Each project is contained within its own dedicated directory, featuring its own 
 * **Description:** An advanced Intrusion Prevention System (IPS) that sniffs live loopback traffic using `Scapy`, calculates volumetric packet velocities, and dynamically deploys Linux kernel-level `iptables` mitigation rules against DoS attacks.
 * **Key Skills:** Live Packet Sniffing, Network Security, Automation (`iptables`), Traffic Analysis.
 
+### 🚨 3. Hybrid IDS/IPS & Signature-Based Malware Filter
+* **Directory:** `[03_Hybrid_IDS_Malware_Filter](./03_Hybrid_IDS_Malware_Filter)`
+* **Core Scripts:** `hybrid_ids_firewall.py` & `test_nimda.py`
+* **Description:** A comprehensive Hybrid IDS/IPS engine integrating Signature-based Deep Packet Inspection (DPI) to block specific malware payload streams alongside Volumetric Flood analysis. Features automated dual-channel event alerting via native desktop popups and real-time out-of-band Telegram Bot API integration.
+* **Key Skills:** Deep Packet Inspection (DPI), Threat Signature Matching, SOC Automation, API Integration, Dynamic Incident Response.
+  
 ---
 
 ## 🚀 Environment & Setup
